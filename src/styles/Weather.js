@@ -4,7 +4,7 @@ export const SearchDiv = styled.div`
   background: #000;
 
   & form {
-    width: 80%;
+    width: 94%;
     margin: auto;
     & input {
       padding: 5px 13px;
@@ -19,4 +19,14 @@ export const SearchDiv = styled.div`
       outline: 0;
     }
   }
+`;
+
+export const WeatherList = styled.div`
+  display: flex;
+  box-shadow: 0px 1px 6px 2px #cecece;
+  margin: 30px auto;
+  border-radius: 6px;
+  width: 94%;
+  padding: 30px;
+  overflow-x: scroll;
 `;
