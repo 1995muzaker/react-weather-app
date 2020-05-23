@@ -1,12 +1,9 @@
 import React from "react";
+import { SearchDiv } from "../styles/Weather";
 
 const Search = ({ changeLocation, changeRegion }) => {
   return (
-    <div className="row">
-      <div className="col-md-6">
-        <h1 className="title">Weather App</h1>
-      </div>
-
+    <SearchDiv>
       <div className="col-md-6">
         <form
           className="region"
@@ -24,7 +21,7 @@ const Search = ({ changeLocation, changeRegion }) => {
           />
         </form>
       </div>
-    </div>
+    </SearchDiv>
   );
 };
 

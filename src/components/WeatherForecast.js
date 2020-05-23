@@ -36,7 +36,7 @@ const WeatherForecast = ({ weather, currentWeather }) => {
       </div>
       {weather.map((weatherData) => {
         return (
-          <div>
+          <div key={weatherData.dt_txt}>
             <p>{weatherData.description}</p>
             <p>{weatherData.dt_txt}</p>
             <p>{weatherData.temp}</p>
